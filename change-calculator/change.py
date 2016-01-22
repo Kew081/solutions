@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def user_input():
     # get input from user
     while True:
@@ -63,5 +65,6 @@ def go_again():
         go_again()
 
 
-print("Welcome to the change calculator!\n")
-change()
+if __name__ == '__main__':
+    print("Welcome to the change calculator!\n")
+    change()

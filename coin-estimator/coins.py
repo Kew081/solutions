@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def coin_amount(total_mass, coin_mass):
     # calculates the total amount of one type of coin
     coinAmount = total_mass / coin_mass

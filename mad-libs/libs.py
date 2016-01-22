@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 print("Please enter: ")
 
 name = input("A name: ")

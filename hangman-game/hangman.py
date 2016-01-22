@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import random
 
 def wrong_guess(num_of_guesses):

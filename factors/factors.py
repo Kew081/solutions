@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def get_num():
     while True:
         try:
@@ -55,5 +57,5 @@ def print_factors(num):
     if len(factors) == 2:
         print("{0} is a prime number!\n".format(num))
 
-
-print_factors(get_num())
+if __name__ == '__main__':
+    print_factors(get_num())

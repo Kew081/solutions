@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def loop():
     play = input("\nWould you like to play again? (y/n) ").lower()
     if play == "y":
@@ -32,4 +34,5 @@ def trips():
 
     loop()
 
-trips()
+if __name__ == '__main__':
+    trips()

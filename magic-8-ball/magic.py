@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from time import sleep
 from random import randint
 
@@ -30,6 +32,6 @@ def loop():
         print("I didn't quite catch that.")
         loop()
 
-# welcome message
-print("\nWelcome to the Magic 8 ball!")
-magic()
+if __name__ == '__main__'
+    print("\nWelcome to the Magic 8 ball!")
+    magic()

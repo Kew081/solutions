@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 from random import randint
 
 def roll(num_of_sides):
@@ -31,6 +33,6 @@ def simulator():
 
     go_again()
 
-
-print("\n********* Dice Rolling Simulator *********")
-simulator()
+if __name__ == '__main__':
+    print("\n********* Dice Rolling Simulator *********")
+    simulator()
