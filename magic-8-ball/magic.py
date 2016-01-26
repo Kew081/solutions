@@ -32,6 +32,6 @@ def loop():
         print("I didn't quite catch that.")
         loop()
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     print("\nWelcome to the Magic 8 ball!")
     magic()
