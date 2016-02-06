@@ -7,5 +7,5 @@ def fib(n):
         x, y = y, x + y
     return x
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(fib(10))
