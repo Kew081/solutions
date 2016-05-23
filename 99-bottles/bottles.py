@@ -8,7 +8,10 @@ def sing():
     for num in count():
         if num != 1:
             print("{0} bottles of beer on the wall, {0} bottles of beer.".format(num))
-            print("Take one down and pass it around, {0} bottles of beer on the wall!\n".format(num - 1))
+            if num > 2:
+                print("Take one down and pass it around, {0} bottles of beer on the wall!\n".format(num - 1))
+            else:
+                print("Take one down and pass it around, {0} bottle of beer on the wall!\n".format(num - 1))
 
         if num == 1:
             print("{0} bottle of beer on the wall, {0} bottle of beer.".format(num))
