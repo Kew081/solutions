@@ -21,18 +21,18 @@ def user_input():
                         break
             break
 
-    return money - price
+    return int(money*100 - price*100)
 
 
 def change():
     # dollar values per type of coin
-    pennyValue = 0.01
-    nickelValue = 0.05
-    dimeValue = 0.1
-    quarterValue = 0.25
+    pennyValue = 1
+    nickelValue = 5
+    dimeValue = 10
+    quarterValue = 25
     target = user_input()
 
-    print("Change needed is $" + str(target))
+    print("Change needed is $" + str(target/100))
     # Calculate the amount of coins needed to reach the target value.
     quarters = target // quarterValue
     target -= quarters * quarterValue
